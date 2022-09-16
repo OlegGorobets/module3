@@ -6,6 +6,7 @@ import org.hibernate.Transaction;
 import ua.gorobetso.module.model.Subject;
 import ua.gorobetso.module.utils.HibernateFactoryUtil;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -29,11 +30,8 @@ public class SubjectDao {
         }
         transaction.commit();
         session.close();
-
-        System.out.println("Best performance: " + result.entrySet().stream().max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get());
-        ;
-        System.out.println("Worst performance: " + result.entrySet().stream().max((entry1, entry2) -> entry1.getValue() < entry2.getValue() ? 1 : -1).get());
-        ;
+        System.out.println("Worst performance: " + result.entrySet().stream().min(Comparator.comparingLong(Map.Entry::getValue)).get());
+        System.out.println("Best performance: " + result.entrySet().stream().max(Comparator.comparingLong(Map.Entry::getValue)).get());
     }
 
     public List<Subject> getAllSubjects() {
