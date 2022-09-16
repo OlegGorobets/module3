@@ -1,0 +1,5 @@
+INSERT INTO public.teacher (id, age, name, surname, subject_code) VALUES ('f4fed8be-6184-4327-921a-0400ce80c126', 49, 'Victoria', 'Gorobets', '2bae1738-81ea-46e2-8edb-d8e30c0066be');
+INSERT INTO public.teacher (id, age, name, surname, subject_code) VALUES ('c816fcdc-43a3-47ad-a229-7245c290c39d', 37, 'Roman', 'Romashkin', '9e5eba96-e669-41ae-b901-59a612db6278');
+INSERT INTO public.teacher (id, age, name, surname, subject_code) VALUES ('145a808f-a9e8-418a-8492-a94595dfb5b7', 70, 'Mihail', 'Oraclov', '8b5718e9-6b4c-4804-a487-8f2a811e0a5a');
+INSERT INTO public.teacher (id, age, name, surname, subject_code) VALUES ('588483c4-9e9b-40b8-a277-4ed0328c7444', 59, 'Marek', 'Milosh', '650fb383-ef50-4ea3-a538-33e61559a59d');
+INSERT INTO public.teacher (id, age, name, surname, subject_code) VALUES ('45855eaa-09dc-4a5a-89a6-79fd85bab3ac', 65, 'Borys', 'Krulikovskii', '2181bd89-b255-4d03-b52b-cfb24d4eb1bf');

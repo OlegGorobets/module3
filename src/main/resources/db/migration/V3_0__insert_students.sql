@@ -1,0 +1,7 @@
+INSERT INTO public.student (id, age, name, surname, date_of_admission, student_group_title) VALUES ('b2cb1394-3e1f-482d-8e63-4731dd39585b', 27, 'Oleg', 'Gorobets', '2022-09-16 01:26:46.455000', 'CNM10-1');
+INSERT INTO public.student (id, age, name, surname, date_of_admission, student_group_title) VALUES ('0ac26730-d652-4a18-850d-299a9f24150a', 30, 'Andrii', 'Dvorkin', '2022-09-16 01:26:46.519000', 'CNM10-1');
+INSERT INTO public.student (id, age, name, surname, date_of_admission, student_group_title) VALUES ('3206686f-6e15-4db4-aa67-84889b3fb245', 27, 'Evgenii', 'Hrapko', '2022-09-16 01:26:46.520000', 'CNM10-1');
+INSERT INTO public.student (id, age, name, surname, date_of_admission, student_group_title) VALUES ('180d178f-2be4-493c-81c5-8d75d57fc442', 21, 'Elena', 'Golovach', '2022-09-16 01:26:46.522000', 'CNM10-2');
+INSERT INTO public.student (id, age, name, surname, date_of_admission, student_group_title) VALUES ('b1465d54-3800-4bfe-ade9-4b8386a738fa', 23, 'Svetlana', 'Golovach', '2022-09-16 01:26:46.523000', 'CNM10-2');
+INSERT INTO public.student (id, age, name, surname, date_of_admission, student_group_title) VALUES ('1dc93f99-76cc-4977-b937-3702f0fed0b8', 24, 'Olexandr', 'Mishenko', '2022-09-16 01:26:46.524000', 'CS10-1');
+INSERT INTO public.student (id, age, name, surname, date_of_admission, student_group_title) VALUES ('15dc15df-84a2-4366-9226-973a074be836', 22, 'Olexandr', 'Bichu', '2022-09-16 01:26:46.525000', 'CS10-2');
